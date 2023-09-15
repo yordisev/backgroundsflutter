@@ -1,4 +1,5 @@
 import 'package:backgrounds/src/screens/header.dart';
+import 'package:backgrounds/src/screens/pinterest.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,8 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HeaderScreen(),
+      // home: HeaderScreen(),
+      home: PinterestPage(),
     );
   }
 }
